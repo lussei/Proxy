@@ -97,7 +97,9 @@ public class ProxyThread extends Thread
         InputStream inputStream = null;//to get the in stream from url connection
         try {
             inputStream = urlConnection.getInputStream();
-        } catch (IOException e) {}
+        } catch (IOException e) {
+
+        }
         return inputStream;
     }
 
